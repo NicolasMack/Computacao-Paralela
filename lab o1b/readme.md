@@ -1,1 +1,1 @@
-Exercicios realizados em C e C++, executados em vscode, replit e c++.
+# Exercicios realizados em C e C++, executados em vscode, replit e Devc++.
