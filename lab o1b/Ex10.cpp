@@ -4,6 +4,8 @@
 //c = col desejada
 //num = número dado
 
+#include <stdio.h>
+
 void multlinha(int i, int j, int mtrz[i][j], int l, int num){
     int cont;
     for(cont=0;cont<j;cont++){
