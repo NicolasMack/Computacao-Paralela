@@ -1,0 +1,1 @@
+# Codigo feito em C, usando como base o exercicio 2 do pdf " https://eduardosan.com/wp-content/uploads/2016/03/Lab01-SO-1.pdf " e o exemplo do link " geeksforgeeks.org/factorial-calculation-using-fork-c-linux/ "
