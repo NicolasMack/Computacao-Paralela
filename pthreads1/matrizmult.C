@@ -22,15 +22,14 @@ void *multiplicar(void* arg)
 int main()
 {
   
-//variaveis
+  //criando variaveis e matrizes
 
   int x=8,y=8,x1=8,y1=8,i,j,k;
-//matriz
-
   int Matriz1[8][8];
   int Matriz2[8][8];
    
-  // preencendo as matrizes com valores aleatorios
+  // preenchendo as matrizes com valores aleatorios
+ ]
   for (i = 0; i < x; i++)
   {
     for (j = 0; j < y; j++)
@@ -47,7 +46,7 @@ int main()
   }
           
   
-  // print matrizes       
+  // print matriz  
   printf("Matriz1\n");  
   for (i = 0; i < x; i++)
   {
@@ -98,7 +97,8 @@ int main()
     void *k;
 
     //soma das threads
-    pthread_join(threads[i], &k);  
+    pthread_join(threads[i], &k); 
+   
     //print das matrizes com thread
     int *pointer = (int *)k;
     printf("%d ",*pointer);
