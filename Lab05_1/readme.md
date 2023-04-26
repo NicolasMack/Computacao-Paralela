@@ -7,3 +7,4 @@
 ## referencias para partes do código:
 1) https://github.com/Chuphay/parallel/blob/master/openmp/trap.c
 2) https://silo.tips/download/prof-renato-pimentel-introduao-paralelismo-concorrencia-etc-programaao-paralela
+3) Pdf disponibilizado pelo professor.
