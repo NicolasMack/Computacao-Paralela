@@ -1,4 +1,4 @@
-# Código para resolução do problema do trapézio, realizado em C.
+# Código para resolução do problema do trapézio, realizado em C e com openMp.
 
 ## Compilado utilizando o comando gcc {nome arq} -o {nome exec} -fopenmp -lm
 ## Prints de execução na nuvem AWS: 
