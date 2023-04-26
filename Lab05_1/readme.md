@@ -2,7 +2,7 @@
 
 ## Compilado utilizando o comando gcc {nome arq} -o {nome exec} -fopenmp -lm
 ## Prints de execução na nuvem AWS: 
-![image](https://user-images.githubusercontent.com/127933971/234531073-24658729-a359-409c-bdd5-7c29066f22af.png)
+![image](https://user-images.githubusercontent.com/127933971/234542054-afd33a55-1d45-4dfe-8648-fb620482a2ba.png)
 
 ## Tempo de execução (média de 3 execuções): 
 - Para 1 processador -> 3,16
