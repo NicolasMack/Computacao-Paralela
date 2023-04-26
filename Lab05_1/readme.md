@@ -4,6 +4,11 @@
 ## Prints de execução na nuvem AWS: 
 ![image](https://user-images.githubusercontent.com/127933971/234531073-24658729-a359-409c-bdd5-7c29066f22af.png)
 
+## Tempo de execução: Número de processadores	Número de threads	Tempo médio de execução (3 execuções)
+1	1	2,33s
+2	2	4,43s
+4	-	-
+8	-	-
 ## referencias para partes do código:
 1) https://github.com/Chuphay/parallel/blob/master/openmp/trap.c
 2) https://silo.tips/download/prof-renato-pimentel-introduao-paralelismo-concorrencia-etc-programaao-paralela
