@@ -5,8 +5,8 @@
 ![image](https://user-images.githubusercontent.com/127933971/234531073-24658729-a359-409c-bdd5-7c29066f22af.png)
 
 ## Tempo de execução (média de 3 execuções): 
-Para 1 processador -> 3,16
-Para 2 processadores -> 3,44
+- Para 1 processador -> 3,16
+- Para 2 processadores -> 3,44
 
 ## referencias para partes do código:
 1) https://github.com/Chuphay/parallel/blob/master/openmp/trap.c
