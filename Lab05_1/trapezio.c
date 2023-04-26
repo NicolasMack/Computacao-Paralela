@@ -18,7 +18,7 @@ int n;
 //contador de threads
 int thread_count ;
 thread_count = strtol ( argv [1] , NULL , 10) ;
-//input
+//input usuario
 printf (" Enter a, b and n\n") ;
 scanf ("%lf %lf %d", &a , &b , &n );
   
