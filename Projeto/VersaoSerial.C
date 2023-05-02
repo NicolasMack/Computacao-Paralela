@@ -1,4 +1,5 @@
-# Versao Serial do projeto
+//Versao Serial do projeto
+
 #include <stdio.h>
 #include <math.h>
 
