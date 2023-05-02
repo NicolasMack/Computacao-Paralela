@@ -6,7 +6,7 @@ int main() {
     int i, n;
     float x, resultTaylor;
     
-    //variaveis, sendo i o numero maximo de termos
+    //variaveis, sendo i o numero de iterações
     printf("digite o numero de termos: ");
     scanf("%d", &i);
     
