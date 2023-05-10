@@ -24,16 +24,16 @@ void taylor(float *resultTaylor, float auxvar, int i) {
 int main(int argc, char *argv[]) {
     int i;
     float auxvar = 1.0, resultTaylor = 0.0;
-
+    
+    // Obtém o número de threads da linha de comando
+    int thread_count = strtol(argv[1], NULL, 10);
+    
     // Verifica se o usuário forneceu o número de threads na linha de comando
     if (argc < 2) {
         printf("Erro: você deve fornecer o número de threads na linha de comando.\n");
         return 1;
     }
-
-    // Obtém o número de threads da linha de comando
-    int thread_count = strtol(argv[1], NULL, 10);
-
+    
     // Pede ao usuário o número de iterações
     printf("Digite o número de iterações: ");
     scanf("%d", &i);
