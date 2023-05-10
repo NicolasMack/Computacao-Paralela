@@ -1,5 +1,5 @@
 # Versao 1 Paralela do projeto
-## Feito na linguagem C, e utilizando openmp (clausula reduction)
+## Feito na linguagem C, e utilizando openmp (parallel for)
 ## Compilado utilizando -fopenmp -o 
 ## Obtive um erro na hora da compilação : "undefined reference to `__cxa_guard_acquire' ", que será tratado em sala de aula com o professor.
 ## Print de execução na aws
