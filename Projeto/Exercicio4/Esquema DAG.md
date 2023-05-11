@@ -1,5 +1,5 @@
 ## Esquema DAG
-![taylor dag](https://github.com/NicolasMack/Computacao-Paralela/assets/127933971/adcade19-7e5d-4970-9d76-facab840aab9)
+![image](https://github.com/NicolasMack/Computacao-Paralela/assets/127933971/11090420-b659-4db2-823a-3cdae8d7f642)
 
 # Vértices da DAG:
 1- Leitura de dados do usuário
