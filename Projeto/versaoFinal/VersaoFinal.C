@@ -16,7 +16,7 @@ long double fatorial(int n) {
 
 int main(int argc, char *argv[]) 
 {
-    //Variaveis e alocaçao de memoria para a variavel
+    //Variaveis e alocaçao de memoria para a variavel, sendo i o numero de iteracoes
     int i = 10000, n;
     long double *fatorialResult = (long double *) malloc((i + 1) * sizeof(long double));
     long double auxvar, resultTaylor;
