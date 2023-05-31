@@ -15,8 +15,10 @@ Executado a partir de 10000 iterações, foram obtidos 18 casas decimais do núm
 
 
 ## Tempo e SpeedUps:
-Para duas threads: 4,943 segundos em média
-Para quatro threads: 4,7343 segundos em média
+Versao Serial com 10 iteracoes e 4 casas decimais: 1,52 em média
+Primeira Versao paralela com 4 casas decimais e 2 threads: 6,123 segundos em média
+Versao Final com duas threads: 4,943 segundos em média
+Versao Final com quatro threads: 4,7343 segundos em média
 
 
 
