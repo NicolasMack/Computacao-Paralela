@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <omp.h>
 
+//funcao do calculo fatorial
 long double fatorial(int n) {
     long double result = 1;
     int i;
@@ -31,11 +32,13 @@ int main(int argc, char *argv[])
 
     resultTaylor = 0;
     auxvar = 1;
-
+    
+    //funcao taylor realocada
     #pragma omp parallel for reduction(+:resultTaylor)
     for (n = 0; n <= i; n++) {
         fatorialResult[n] = fatorial(n);
-        for (int j = 0; j < 1000; j++) { // Ajuste o limite superior conforme necessário
+        for (int j = 0; j < n; j++) 
+        { 
             auxvar *= 1.0;
         }
         resultTaylor += auxvar / fatorialResult[n];
